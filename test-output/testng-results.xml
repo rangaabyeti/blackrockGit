@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6686" started-at="2020-08-11T20:35:13Z" finished-at="2020-08-11T20:35:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6686" started-at="2020-08-11T20:35:13Z" finished-at="2020-08-11T20:35:20Z">
+      <class name="Test.RestApiPractice">
+        <test-method status="PASS" signature="test_APIWithBasicAuthentication_ShouldBeGivenAccess()[pri:0, instance:Test.RestApiPractice@5b275dab]" name="test_APIWithBasicAuthentication_ShouldBeGivenAccess" duration-ms="2921" started-at="2020-08-11T20:35:13Z" finished-at="2020-08-11T20:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_APIWithBasicAuthentication_ShouldBeGivenAccess -->
+        <test-method status="PASS" signature="test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6()[pri:0, instance:Test.RestApiPractice@5b275dab]" name="test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6" duration-ms="1325" started-at="2020-08-11T20:35:16Z" finished-at="2020-08-11T20:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6 -->
+        <test-method status="PASS" signature="test_NumberOfCircuitsFor2017Season_ShouldBe20()[pri:0, instance:Test.RestApiPractice@5b275dab]" name="test_NumberOfCircuitsFor2017Season_ShouldBe20" duration-ms="701" started-at="2020-08-11T20:35:17Z" finished-at="2020-08-11T20:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuitsFor2017Season_ShouldBe20 -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe20_Parameterized()[pri:0, instance:Test.RestApiPractice@5b275dab]" name="test_NumberOfCircuits_ShouldBe20_Parameterized" duration-ms="346" started-at="2020-08-11T20:35:18Z" finished-at="2020-08-11T20:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe20_Parameterized -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String, int)[pri:0, instance:Test.RestApiPractice@5b275dab]" name="test_NumberOfCircuits_ShouldBe_DataDriven" duration-ms="376" started-at="2020-08-11T20:35:19Z" data-provider="seasonsAndNumberOfRaces" finished-at="2020-08-11T20:35:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String, int)[pri:0, instance:Test.RestApiPractice@5b275dab]" name="test_NumberOfCircuits_ShouldBe_DataDriven" duration-ms="337" started-at="2020-08-11T20:35:19Z" data-provider="seasonsAndNumberOfRaces" finished-at="2020-08-11T20:35:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String, int)[pri:0, instance:Test.RestApiPractice@5b275dab]" name="test_NumberOfCircuits_ShouldBe_DataDriven" duration-ms="344" started-at="2020-08-11T20:35:19Z" data-provider="seasonsAndNumberOfRaces" finished-at="2020-08-11T20:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method status="PASS" signature="test_ResponseHeaderData_ShouldBeCorrect()[pri:0, instance:Test.RestApiPractice@5b275dab]" name="test_ResponseHeaderData_ShouldBeCorrect" duration-ms="303" started-at="2020-08-11T20:35:20Z" finished-at="2020-08-11T20:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ResponseHeaderData_ShouldBeCorrect -->
+      </class> <!-- Test.RestApiPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
